@@ -1,0 +1,25 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/marcosgomesneto/bun-devcontainers/tree/main/src/basic-bun
+{
+  "name": "Bun",
+  "dockerFile": "Dockerfile",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "oven.bun-vscode",
+        "johnsoncodehk.vscode-typescript-web"
+      ]
+    }
+},
+"features": {
+	"ghcr.io/customink/codespaces-features/docker-log-level:1": {},
+	"ghcr.io/jsburckhardt/devcontainer-features/jnv:1": {},
+	"ghcr.io/eliises/devcontainer-features/devcontainers-cli:1": {},
+	"ghcr.io/jpawlowski/devcontainer-features/codespaces-dotfiles:1": {},
+	"ghcr.io/deep-space-cartel/devcontainers-features/apt:1": {},
+	"ghcr.io/deep-space-cartel/devcontainers-features/pip:1": {}
+}
+}
